@@ -57,10 +57,47 @@ body {
   right: 0;
   position: absolute;
   font-family: "Actor", sans-serif;
-  margin: 30% 30%;
+  margin: 30% 31%;
   font-size: 1.5rem;
   color: rgb(39, 60, 182);
 }
 /* end of the header */
 /* about section starts */
 
+.about-container {
+  height: 100%;
+  width: 100%;
+}
+.advice-container {
+    width: 40%;
+    margin: 11rem 0% 8rem 5%;
+    float: left;
+}
+.advice-container img{
+    max-width:100%;
+    max-height:100%;
+}
+.description-box{
+    float: left;
+    width: 45%;
+
+    margin: 5rem 2%;
+    padding: 2rem;   
+    box-shadow: 6px 6px  rgb(21, 31, 90);
+}
+.description-box h2{
+    margin: 4.5rem 0;
+    float: left;
+    font-family: "Actor", sans-serif;
+    font-size: 3rem;
+}
+.description-box img{
+    float: left;
+    margin-left: 1rem;
+}
+.description-box p{
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 13rem;
+}
