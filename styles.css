@@ -5,6 +5,7 @@ body {
   margin: 0%;
   padding: 0%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 /* we style the header and add opacity*/
 .header {
@@ -44,6 +45,7 @@ body {
   text-decoration: none;
   font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
 }
 
 .topnav a:hover {
@@ -69,6 +71,7 @@ body {
 .about-container {
   height: 100%;
   width: 100%;
+  margin-bottom: 200px;
 }
 .advice-container {
   width: 40%;
@@ -211,6 +214,7 @@ img {vertical-align: middle;}
 .container-us{
     height: 100%;
     width: 100%;
+    margin-bottom: 150px;
   }
   .ceo-pic  {
     width: 30%;
@@ -251,4 +255,52 @@ img {vertical-align: middle;}
   /* us with ceo section ends  */
 
   /*contact section in footer starts*/
+  footer{
+    background-color: #3b3b3b;
+    height: 300px;
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+    width: 100%;
+    z-index:-1;
+    color: white;
+  }
+  footer img{
+    float: left;
+    margin-left: -680px;
+  }
+  footer .info-logos-container{
+    float: left;
+    margin: 150px 100px;
+    margin-left: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  button {
+    background-color: rgb(21, 31, 90); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  button a:visited{
+    background-color: rgb(21, 31, 90);
+    text-decoration: none;
+    color: white;
+  }
+  .logos-container{
+float: right;  }
+  .logo{
+    width: 75px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .logo img{
+      float: right;
+      max-width: 100%;
+      max-height: 100%;
+  }
   
